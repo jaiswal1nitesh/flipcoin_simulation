@@ -2,7 +2,9 @@
 randomNumber=$(($RANDOM%2))
 if [ $randomNumber == 0 ]
 then 
- 	echo "Heads"
+       echo "Heads"
+	  
 else
-	echo "Tails"
+	  echo "Tails"
+	  
 fi
